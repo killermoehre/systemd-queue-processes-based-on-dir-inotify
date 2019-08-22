@@ -3,7 +3,9 @@ Description="Monitor a directory to run comsul batch"
 
 [Service]
 Type=Notify
+NotifyAccess=exec
 ExecStart=/usr/local/bin/monitor-directory.sh
 
 [Install]
 WantedBy=multi-user.target
+C
