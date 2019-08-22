@@ -8,4 +8,3 @@ ExecStart=/usr/local/bin/monitor-directory.sh
 
 [Install]
 WantedBy=multi-user.target
-C
