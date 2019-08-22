@@ -1,0 +1,9 @@
+[Unit]
+Description="Monitor a directory to run comsul batch"
+
+[Service]
+Type=Notify
+ExecStart=/usr/local/bin/monitor-directory.sh
+
+[Install]
+WantedBy=multi-user.target
